@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "sincrono30": {
+      "hosting": {
+        "sincrono30": [
+          "sincrono30"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "sincrono30"
+  }
+}

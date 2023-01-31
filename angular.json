@@ -100,6 +100,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "sincrono30:build:production",
+            "firebaseProject": "sincrono30",
+            "firebaseHostingSite": "sincrono30"
+          }
         }
       }
     }
